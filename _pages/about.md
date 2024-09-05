@@ -2,24 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: Deep Learning | Uncertainty Estimation | Medical Image Analysis 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: >
+    <p align="left"> Office Address: Science Park 904, 1098 XH Amsterdam, The Netherlands </p>
+    
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: true  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a PhD candidate at <a href="https://qurai.amsterdam/">qurAI</a>, University of Amsterdam. Working under the supervision of  <a href="https://qurai.amsterdam/researcher/clarisa-sanchez/">Prof. Clarisa Sánchez</a> and <a href="https://ebekkers.github.io/">Prof. Erik Bekkers</a>, we investigate uncertainty-aware predictive deep learning models for treatment decision-making in neovascular age-related macular degeneration (AMD) patients. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before that, I worked as a researcher in EU H2020 <a href="https://moore4medical.eu/">Moore4Medical</a> project, with the <a href="https://www.maastrichtuniversity.nl/research/department-advanced-computing-sciences">Department of Advanced Computing Sciences</a>, <a href="https://www.maastrichtuniversity.nl/"> Maastricht University </a> team. I was also a Research Associate at <a href="https://latim.univ-brest.fr/">laboratoire de traitement de l'information médicale (LaTIM)</a> , which is a medical image processing lab under 
+the French National Institute of Health and Medical Research. At <a href="https://latim.univ-brest.fr/">LaTIM</a> I particularly worked with <a href="https://www.imt-atlantique.fr/en/person/pierre-henri-conze">Prof. Pierre-Henri CONZE </a>.
+
+As of my education, I obtained my Erasmus+ Mundus Joint Master (EMJMD) in <a href="https://ipcv.eu/">Image Processing and Computer Vision (IPCV)</a> from three different universities across Europe and my B.Sc. from <a href="https://daffodilvarsity.edu.bd/department/cse">Department of Computer Science & Engineering</a>, <a href="https://daffodilvarsity.edu.bd/">Daffodil International University (DIU)</a>, Bangladesh. 
+
+
+
+
+
