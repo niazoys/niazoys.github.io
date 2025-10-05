@@ -7,9 +7,8 @@ paper_years: [2025, 2024, 2022,2021, 2019 ,2018]
 # preprint_years: [2025]
 # thesis_years: [2025]
 nav: true
-nav_order: 2
+nav_order: 1
 ---
-<i>* denotes equal contribution</i>
 
 <!-- <div class="publications">
 <h2>Preprints</h2>
@@ -21,19 +20,18 @@ nav_order: 2
 
 
 <div class="publications">
-<h2>Peer-reviewed</h2>
 
 {% for y in page.paper_years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-<div class="publications">
+<!-- <div class="publications">
 <h2>Theses</h2>
 
 {% for y in page.thesis_years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f thesis -q @*[year={{y}}]* %}
-{% endfor %}
+{% endfor %} -->
 
 </div>
