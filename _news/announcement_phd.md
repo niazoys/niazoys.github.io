@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2022-05-01 00:00:00-0000
+date: 2022-11-15 00:00:00-0000
 inline: true
 ---
-Joined the <a href="https://graphics.tudelft.nl/">CGV</a> group at TU Delft as a PhD Candidate.
+Joined the <a href="https://qurai.amsterdam/">qurAI</a> group at University of Amsterdam as a PhD Candidate.

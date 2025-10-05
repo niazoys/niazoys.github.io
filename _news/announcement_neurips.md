@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-09-22 12:00:00-0000
+date: 2024-09-22 12:00:00-0000
 inline: true
 ---
-Paper on <a href="https://lukas.uzolas.com/Articulated-Point-NeRF/">articulated point clouds</a> accepted to NeurIPS 2023 🥳.
+Paper on <a href="https://arxiv.org/abs/2410.09862">Conditioning 3D Diffusion Models with 2D Images</a> accepted to NeurIPS Workshop on GenAI4Health 2024
