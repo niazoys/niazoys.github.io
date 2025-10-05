@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 
 
-icon: L # the emoji used as the favicon
+icon: 🍉🍉 # the emoji used as the favicon
 url: https://niazoys.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -52,9 +52,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: niazoys # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+twitter_username: Mohammad_Niaz94 # your Twitter handle
 linkedin_username: mohammadniaz # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: fJMJjM8AAAAJ&hl # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
