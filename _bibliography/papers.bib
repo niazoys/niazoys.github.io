@@ -87,10 +87,8 @@
   organization={Springer Nature Switzerland Cham},
   bibtex_type={conference},
   abbr={MICCAI},
-  pdf={},
-  code={},
-  url={},
-  abstract={}
+  pdf={https://link.springer.com/chapter/10.1007/978-3-031-16437-8_46},
+  abstract={Evaluating treatment response is essential in patients who develop colorectal liver metastases to decide the necessity for second-line treatment or the admissibility for surgery. Currently, RECIST1.1 is the most widely used criteria in this context. However, it involves time-consuming, precise manual delineation and size measurement of main liver metastases from Computed Tomography (CT) images. Moreover, an early prediction of the treatment response given a specific chemotherapy regimen and the initial CT scan would be of tremendous use to clinicians. To overcome these challenges, this paper proposes a deep learning-based treatment response assessment pipeline and its extension for prediction purposes. Based on a newly designed 3D Siamese classification network, our method assigns a response group to patients given CT scans from two consecutive follow-ups during the treatment period. Further, we extended the network to predict the treatment response given only the image acquired at first time point. The pipelines are trained on the PRODIGE20 dataset collected from a phase-II multi-center clinical trial in colorectal cancer with liver metastases and exploit an in-house dataset to integrate metastases delineations derived from a U-Net inspired network as additional information. Our approach achieves overall accuracies of 94.94% and 86.86% for treatment response assessment and early prediction, respectively, suggesting that both treatment response assessment and prediction issues can be effectively solved with deep learning.}
 }
 
 @inproceedings{islam2024uncertainty,
@@ -102,10 +100,10 @@
   organization={PMLR},
   bibtex_type={conference},
   abbr={MIDL},
-  pdf={},
-  code={},
+  pdf={https://proceedings.mlr.press/v250/islam24a.html},
+  code={https://github.com/niazoys/RLS_PSDF/},
   url={},
-  abstract={}
+  abstract={In this paper, we present a new approach for uncertainty-aware retinal layer segmentation in Optical Coherence Tomography (OCT) scans using probabilistic signed distance functions (SDF). Traditional pixel-wise and regression-based methods primarily encounter difficulties in precise segmentation and lack of geometrical grounding respectively. To address these shortcomings, our methodology refines the segmentation by predicting a signed distance function (SDF) that effectively parameterizes the retinal layer shape via level set. We further enhance the framework by integrating probabilistic modeling, applying Gaussian distributions to encapsulate the uncertainty in the shape parameterization. This ensures a robust representation of the retinal layer morphology even in the presence of ambiguous input, imaging noise, and unreliable segmentations. Both quantitative and qualitative evaluations demonstrate superior performance when compared to other methods. Additionally, we conducted experiments on artificially distorted datasets with various noise types—shadowing, blinking, speckle, and motion—common in OCT scans to showcase the effectiveness of our uncertainty estimation. Our findings demonstrate the possibility of obtaining reliable segmentation of retinal layers, as well as an initial step towards the characterization of layer integrity, a key biomarker for disease progression.}
 }
 
 @article{de2024generalizable,
@@ -119,10 +117,7 @@
   publisher={The Association for Research in Vision and Ophthalmology},
   bibtex_type={journal},
   abbr={TVST},
-  pdf={},
-  code={},
-  url={},
-  abstract={}
+  pdf={https://tvst.arvojournals.org/article.aspx?articleid=2800772}
 }
 
 @inproceedings{de2024conditioning,
@@ -131,11 +126,10 @@
   booktitle={NeurIPS 2024 Workshop on GenAI4Health},
   year={2024},
   bibtex_type={workshop},
-  abbr={NeurIPS WS},
-  pdf={},
-  code={},
+  abbr={NeurIPS},
+  pdf={https://arxiv.org/abs/2410.09862},
   url={},
-  abstract={}
+  abstract={High anisotropy in volumetric medical images can lead to the inconsistent quantification of anatomical and pathological structures. Particularly in optical coherence tomography (OCT), slice spacing can substantially vary across and within datasets, studies, and clinical practices. We propose to standardize OCT volumes to less anisotropic volumes by conditioning 3D diffusion models with en face scanning laser ophthalmoscopy (SLO) imaging data, a 2D modality already commonly available in clinical practice. We trained and evaluated on data from the multicenter and multimodal MACUSTAR study. While upsampling the number of slices by a factor of 8, our method outperforms tricubic interpolation and diffusion models without en face conditioning in terms of perceptual similarity metrics. Qualitative results demonstrate improved coherence and structural similarity. Our approach allows for better informed generative decisions, potentially reducing hallucinations. We hope this work will provide the next step towards standardized high-quality volumetric imaging, enabling more consistent quantifications.}
 }
 
 @article{islam2025platonictransformerssolidchoice,
@@ -145,7 +139,7 @@
       eprint={2510.03511},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.03511},
+      pdf={https://arxiv.org/abs/2510.03511},
       bibtex_type={preprint},
       abbr={arXiv},
       code={https://github.com/niazoys/PlatonicTransformers/},
@@ -164,7 +158,7 @@
   bibtex_type={preprint},
   abbr={arXiv},
   code={},
-  url={https://arxiv.org/abs/2501.01999},
+  pdf={https://arxiv.org/abs/2501.01999},
   abstract={In this work, we explore the trade-offs of explicit structural priors, particularly group equivariance. We address this through theoretical analysis and a comprehensive empirical study. To enable controlled and fair comparisons, we introduce \texttt{Rapidash}, a unified group convolutional architecture that allows for different variants of equivariant and non-equivariant models. Our results suggest that more constrained equivariant models outperform less constrained alternatives when aligned with the geometry of the task, and increasing representation capacity does not fully eliminate performance gaps. We see improved performance of models with equivariance and symmetry-breaking through tasks like segmentation, regression, and generation across diverse datasets. Explicit \textit{symmetry breaking} via geometric reference frames consistently improves performance, while \textit{breaking equivariance} through geometric input features can be helpful when aligned with task geometry. Our results provide task-specific performance trends that offer a more nuanced way for model selection.}
 }
 
@@ -177,7 +171,7 @@
       eprint={2510.03569},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2510.03569}, 
+      pdf={https://arxiv.org/abs/2510.03569}, 
       bibtex_type={preprint},
       abbr={arXiv},
       code={https://github.com/niazoys/longitudinal-flow-matching},
