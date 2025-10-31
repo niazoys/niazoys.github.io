@@ -138,6 +138,20 @@
   abstract={}
 }
 
+@article{islam2025platonictransformerssolidchoice,
+      title={Platonic Transformers: A Solid Choice For Equivariance}, 
+      author={Mohammad Mohaiminul Islam and Rishabh Anand and David R. Wessels and Friso de Kruiff and Thijs P. Kuipers and Rex Ying and Clara I. Sánchez and Sharvaree Vadgama and Georg Bökman and Erik J. Bekkers},
+      year={2025},
+      eprint={2510.03511},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.03511},
+      bibtex_type={preprint},
+      abbr={arXiv},
+      code={https://github.com/niazoys/PlatonicTransformers/},
+      abstract={While widespread, Transformers lack inductive biases for geometric symmetries common in science and computer vision. Existing equivariant methods often sacrifice the efficiency and flexibility that make Transformers so effective through complex, computationally intensive designs. We introduce the Platonic Transformer to resolve this trade-off. By defining attention relative to reference frames from the Platonic solid symmetry groups, our method induces a principled weight-sharing scheme. This enables combined equivariance to continuous translations and Platonic symmetries, while preserving the exact architecture and computational cost of a standard Transformer. Furthermore, we show that this attention is formally equivalent to a dynamic group convolution, which reveals that the model learns adaptive geometric filters and enables a highly scalable, linear-time convolutional variant. Across diverse benchmarks in computer vision (CIFAR-10), 3D point clouds (ScanObjectNN), and molecular property prediction (QM9, OMol25), the Platonic Transformer achieves competitive performance by leveraging these geometric constraints at no additional cost.}
+}
+
 
 @article{vadgama2025probing,
   title={Probing Equivariance and Symmetry Breaking in Convolutional Networks},
@@ -154,19 +168,7 @@
   abstract={In this work, we explore the trade-offs of explicit structural priors, particularly group equivariance. We address this through theoretical analysis and a comprehensive empirical study. To enable controlled and fair comparisons, we introduce \texttt{Rapidash}, a unified group convolutional architecture that allows for different variants of equivariant and non-equivariant models. Our results suggest that more constrained equivariant models outperform less constrained alternatives when aligned with the geometry of the task, and increasing representation capacity does not fully eliminate performance gaps. We see improved performance of models with equivariance and symmetry-breaking through tasks like segmentation, regression, and generation across diverse datasets. Explicit \textit{symmetry breaking} via geometric reference frames consistently improves performance, while \textit{breaking equivariance} through geometric input features can be helpful when aligned with task geometry. Our results provide task-specific performance trends that offer a more nuanced way for model selection.}
 }
 
-@article{islam2025platonictransformerssolidchoice,
-      title={Platonic Transformers: A Solid Choice For Equivariance}, 
-      author={Mohammad Mohaiminul Islam and Rishabh Anand and David R. Wessels and Friso de Kruiff and Thijs P. Kuipers and Rex Ying and Clara I. Sánchez and Sharvaree Vadgama and Georg Bökman and Erik J. Bekkers},
-      year={2025},
-      eprint={2510.03511},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.03511},
-      bibtex_type={preprint},
-      abbr={arXiv},
-      code={https://github.com/niazoys/PlatonicTransformers/},
-      abstract={While widespread, Transformers lack inductive biases for geometric symmetries common in science and computer vision. Existing equivariant methods often sacrifice the efficiency and flexibility that make Transformers so effective through complex, computationally intensive designs. We introduce the Platonic Transformer to resolve this trade-off. By defining attention relative to reference frames from the Platonic solid symmetry groups, our method induces a principled weight-sharing scheme. This enables combined equivariance to continuous translations and Platonic symmetries, while preserving the exact architecture and computational cost of a standard Transformer. Furthermore, we show that this attention is formally equivalent to a dynamic group convolution, which reveals that the model learns adaptive geometric filters and enables a highly scalable, linear-time convolutional variant. Across diverse benchmarks in computer vision (CIFAR-10), 3D point clouds (ScanObjectNN), and molecular property prediction (QM9, OMol25), the Platonic Transformer achieves competitive performance by leveraging these geometric constraints at no additional cost.}
-}
+
 
 @article{islam2025longitudinalflowmatchingtrajectory,
       title={Longitudinal Flow Matching for Trajectory Modeling}, 
