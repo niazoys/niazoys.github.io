@@ -132,6 +132,9 @@
   abstract={High anisotropy in volumetric medical images can lead to the inconsistent quantification of anatomical and pathological structures. Particularly in optical coherence tomography (OCT), slice spacing can substantially vary across and within datasets, studies, and clinical practices. We propose to standardize OCT volumes to less anisotropic volumes by conditioning 3D diffusion models with en face scanning laser ophthalmoscopy (SLO) imaging data, a 2D modality already commonly available in clinical practice. We trained and evaluated on data from the multicenter and multimodal MACUSTAR study. While upsampling the number of slices by a factor of 8, our method outperforms tricubic interpolation and diffusion models without en face conditioning in terms of perceptual similarity metrics. Qualitative results demonstrate improved coherence and structural similarity. Our approach allows for better informed generative decisions, potentially reducing hallucinations. We hope this work will provide the next step towards standardized high-quality volumetric imaging, enabling more consistent quantifications.}
 }
 
+
+
+
 @article{islam2025platonictransformerssolidchoice,
       title={Platonic Transformers: A Solid Choice For Equivariance}, 
       author={Mohammad Mohaiminul Islam and Rishabh Anand and David R. Wessels and Friso de Kruiff and Thijs P. Kuipers and Rex Ying and Clara I. Sánchez and Sharvaree Vadgama and Georg Bökman and Erik J. Bekkers},
@@ -145,6 +148,19 @@
       code={https://github.com/niazoys/PlatonicTransformers/},
       abstract={While widespread, Transformers lack inductive biases for geometric symmetries common in science and computer vision. Existing equivariant methods often sacrifice the efficiency and flexibility that make Transformers so effective through complex, computationally intensive designs. We introduce the Platonic Transformer to resolve this trade-off. By defining attention relative to reference frames from the Platonic solid symmetry groups, our method induces a principled weight-sharing scheme. This enables combined equivariance to continuous translations and Platonic symmetries, while preserving the exact architecture and computational cost of a standard Transformer. Furthermore, we show that this attention is formally equivalent to a dynamic group convolution, which reveals that the model learns adaptive geometric filters and enables a highly scalable, linear-time convolutional variant. Across diverse benchmarks in computer vision (CIFAR-10), 3D point clouds (ScanObjectNN), and molecular property prediction (QM9, OMol25), the Platonic Transformer achieves competitive performance by leveraging these geometric constraints at no additional cost.}
 }
+
+
+
+@article{van2025uncertainty,
+  title={Uncertainty estimates in pharmacokinetic modelling},
+  author={Van Elburg, Jonas M and Korobova, Natalia V and Islam, Mohammad M and Troelstra, Marian A and Gurney-Champion, Oliver J},
+  journal={Medical Image Analysis},
+  pages={103881},
+  year={2025},
+  url={https://www.sciencedirect.com/science/article/pii/S136184152500427X?__cf_chl_tk=d0.GpU6nZLPdV.EbS3Zgq0vPvPwBtpb0Wlww2AcETaw-1783660633-1.0.1.1-i3mQ43nRrbMSJE5RrX1rTkVgEFSNCyYCEWQ00Jzmkto},
+  publisher={Elsevier}
+}
+
 
 
 @article{vadgama2025probing,
@@ -177,3 +193,4 @@
       code={https://github.com/niazoys/longitudinal-flow-matching},
       abstract={Generative models for sequential data often struggle with sparsely sampled and high-dimensional trajectories, typically reducing the learning of dynamics to pairwise transitions. We propose Interpolative Multi-Marginal Flow Matching (IMMFM), a framework that learns continuous stochastic dynamics jointly consistent with multiple observed time points. IMMFM employs a piecewise-quadratic interpolation path as a smooth target for flow matching and jointly optimizes drift and a data-driven diffusion coefficient, supported by a theoretical condition for stable learning. This design captures intrinsic stochasticity, handles irregular sparse sampling, and yields subject-specific trajectories. Experiments on synthetic benchmarks and real-world longitudinal neuroimaging datasets show that IMMFM outperforms existing methods in both forecasting accuracy and further downstream tasks.}
 }
+
